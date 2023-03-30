@@ -61,7 +61,7 @@ const Dashbord = () => {
   return (
     <div>
       <Sidebar />
-      <div className={`${style.darkMode && "dark-mode"}`}>
+      <div className={`${style.darkMode && style.dark_mode}`}>
         <div className={style.container}>
           <Header handleToggleDarkMode={setDarkMode} />
           <br></br>
@@ -74,8 +74,11 @@ const Dashbord = () => {
             handleAddCourse={addCourse}
             handleDeleteCourse={deleteCourse}
           />
-
+           <br></br>
+           
           <h1 className={style.all}>All Courses</h1>
+          <br></br>
+           
           <Link to="/AllCourses">
             <button className={style.btn}>See All Courses</button>
           </Link>

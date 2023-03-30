@@ -1,15 +1,21 @@
-.course.new {
+.course_new {
   background-color: lightgoldenrodyellow;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
 }
+
 
 .save {
   background-color: #e1e1e1;
   border: none;
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
+  margin-left: 10px;
+  margin-bottom: 15px;
 }
 
 .save:hover {
   background-color: #ededed;
   cursor: pointer;
+ 
 }

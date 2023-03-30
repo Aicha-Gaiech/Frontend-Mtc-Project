@@ -19,7 +19,7 @@ const AddCourse = ({ handleAddCourse }) => {
   };
 
   return (
-    <div className={style.course.new}>
+    <div className={style.course_new}>
       <textarea
         rows="8"
         cols="10"

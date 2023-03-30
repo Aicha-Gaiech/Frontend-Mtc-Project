@@ -2,7 +2,7 @@ import "./App.css";
 import { Socket } from "socket.io-client";
 import AddFiles from "./pages/AddFilesPage/AddFiles";
 import ListFiles from "./pages/AddFilesPage/ListFiles";
-import Dashbord from "./pages/Courses Page/Home/Home";
+import Dashbord from "./pages/Courses Page/Dashbord/Dashbord";
 import AllCourses from "./pages/Courses Page/AllCourses/AllCourses";
 import CoursesList from "./pages/Courses Page/CoursesList/CoursesList";
 import SignUp from "./pages/SignUp Page/SignUp";
@@ -18,18 +18,19 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 //import ChatPage from "./pages/ChatPage/ChatPage";
 //const socket = socketIO.connect("http://localhost:4000");
 import Home from "./pages/Home Page/Home/Home";
-import Sidebar from "./components/Sidebar/Sidebar";
+// import Sidebar from "./components/Sidebar/Sidebar";
 import RightSidebar from "./components/Right Sidebar/Sidebar";
 import ClassSidebar from "./components/My Class Sidebar/Sidebar";
 import Calendrier from "./pages/Calendrier/Calendrier";
 import Navbar from "./components/Right Sidebar/Sidebar";
+import Course from "./pages/Courses Page/Course/Course";
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-
+          <Route path="/dashbord" element={<Dashbord />} />
           <Route path="/Signup" element={<SignUp />} />
           <Route path="/Signin" element={<SignIn />} />
 
@@ -41,19 +42,19 @@ function App() {
           <Route path="/Dashbord" element={<Dashbord />} />
           <Route path="/AllCourses" element={<AllCourses />} />
           <Route path="/CoursesList" element={<CoursesList />} />
-
+          
           <Route path="/Notes" element={<Notes />} />
           <Route path="/AddNotes" element={<AddNotes />} />
 
           <Route path="/Calendrier" element={<Calendrier />} />
 
-          <Route path="/Sidebar" element={<Sidebar />} />
+          {/* <Route path="/Sidebar" element={<Sidebar />} /> */}
           <Route path="/RightSidebar" element={<RightSidebar />} />
           <Route path="/ClassSidebar" element={<ClassSidebar />} />
 
           <Route path="/AddFiles" element={<AddFiles />} />
           <Route path="/ListFiles" element={<ListFiles />} />
-          <Route path="side" element={<Sidebar/>}/>
+          {/* <Route path="side" element={<Sidebar/>}/> */}
           <Route path="/Calendrier" element={<Calendrier />} />
         </Routes>
       </Router>

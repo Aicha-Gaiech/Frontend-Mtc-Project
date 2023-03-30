@@ -11,6 +11,7 @@
   border: none;
   background-color: rgb(233, 233, 233);
   width: 100%;
+  color: rgb(83, 79, 112);
 }
 
 .search input:focus {

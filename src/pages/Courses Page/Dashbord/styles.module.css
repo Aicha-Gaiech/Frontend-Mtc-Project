@@ -1,11 +1,15 @@
 body {
-  margin: 0;
+  margin-left: 20%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: AliceBlue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
 }
 
 code {
@@ -19,18 +23,18 @@ code {
   justify-content: space-between;
 }
 
-.dark-mode {
+.dark_mode {
   background-color: #131335;
 }
 
-.dark-mode h1 {
+.dark_mode h1 {
   color: white;
 }
-.dark-mode h3 {
+.dark_mode h3 {
   color: white;
 }
 
-.courses-list {
+.courses_list {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -49,4 +53,12 @@ textarea:focus {
 .all {
   font-family: "Goudy Old Style";
   color: darkslateblue;
+}
+.btn{
+  
+  background-color: cadetblue;
+  height: 30px;
+  width: 150px;
+ 
+  
 }

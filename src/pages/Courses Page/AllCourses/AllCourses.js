@@ -58,10 +58,10 @@ export default function AllCourses() {
           <Header handleToggleDarkMode={setDarkMode} />
           <br></br>
           <Search handleSearchCourse={setSearchName} />
-          <h1 className={style.see}>All Courses</h1>
+          <h1 className={style.see} >All Courses</h1>
 
           <h2 className={style.cours}>Math</h2>
-          <Profs
+          <Profs 
             profs={profs.filter((prof) =>
               prof.name.toLowerCase().includes(searchName)
             )}

@@ -1,17 +1,28 @@
 .img1 {
   clip-path: ellipse(33% 50%);
+  
+}
+.body{
+  margin-left: 15%;
 }
 
-.prof {
+.container {
   background-color: rgb(125, 177, 228);
-  border-radius: 10px;
+  border-radius: 10px ;
   padding: 1rem;
   min-height: 170px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   white-space: pre-wrap;
+  margin-top: 15px;
 }
-.name {
-  color: #483d8b;
+.p b{
+  color: rgb(27, 106, 111);
+  font-size: 17px;
 }
+.p {
+  color: rgb(2, 4, 31);
+  font-size: 15px;
+}
+

@@ -50,7 +50,7 @@ export default function CoursProfs() {
   }, [profs]);
 
   return (
-    <div className={`${style.darkMode && style.dark - mode}`}>
+    <div className={`${style.dark-mode && style.dark - mode}`}>
       <div className={style.container}>
         <Header handleToggleDarkMode={setDarkMode} />
         <br></br>

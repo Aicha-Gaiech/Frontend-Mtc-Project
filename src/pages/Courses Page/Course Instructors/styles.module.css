@@ -21,3 +21,18 @@
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+.prof{
+  border: 10px solid rgb(6, 44, 81);
+  border-radius: 12px;
+}
+.dark-mode {
+  background-color: #131335;
+}
+
+.dark-mode h1 {
+  color: white;
+}
+.dark-mode h3 {
+  color: white;
+}
+

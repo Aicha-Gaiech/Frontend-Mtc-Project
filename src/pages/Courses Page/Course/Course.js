@@ -12,10 +12,10 @@ const Course = ({ id, name, handleDeleteCourse }) => {
             </span>
           </td>
           <td>
-            <div className={style.course.delete}>
+            <div className={style.course_delete}>
               <MdDeleteForever
                 onClick={() => handleDeleteCourse(id)}
-                className={style.delete.icon}
+                className={style.delete_icon}
                 size="1em"
               />
             </div>
