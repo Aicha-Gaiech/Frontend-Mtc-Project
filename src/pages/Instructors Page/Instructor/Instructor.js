@@ -5,7 +5,7 @@ const Prof = ({ id, name, age, education, experience, contact }) => {
     <div className={style.container}>
             <div className={style.prof}>
       <center>
-        <img src="prof.jpeg" alt="image" width="100px" className={style.img1}></img>
+        <img src="instructor.jpg" alt="image" width="100px" className={style.img1}></img>
       </center>
       
       <p className={style.p}>

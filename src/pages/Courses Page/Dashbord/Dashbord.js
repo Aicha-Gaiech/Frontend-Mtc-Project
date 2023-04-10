@@ -7,22 +7,27 @@ import { Link } from "react-router-dom";
 import style from "./styles.module.css";
 import Sidebar from "../../Sidebar/SideBar";
 const Dashbord = () => {
+ 
   const [courses, setCourses] = useState([
     {
       id: nanoid(),
       name: "JAVA",
+      imageURL:"java.png"
     },
     {
       id: nanoid(),
       name: "Python",
+      imageURL:"Python.png"
     },
     {
       id: nanoid(),
       name: "Math",
+      imageURL:"math.webp"
     },
     {
       id: nanoid(),
       name: "Adobe",
+      imageURL:"adobe.jpg"
     },
   ]);
 

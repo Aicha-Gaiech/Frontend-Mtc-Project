@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
-import styles from './styles.module.css';
+import styles from './Styles.module.css';
 const AboutUs = () => {
   return (
     <div>

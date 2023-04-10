@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import style from "./styles.module.css";
 import Sidebar from "../../Sidebar/SideBar";
 export default function AllCourses() {
+ 
   const [profs, setProfs] = useState([
     {
       id: nanoid(),
@@ -34,7 +35,7 @@ export default function AllCourses() {
     },
     {
       id: nanoid(),
-      name: "Mohamed",
+      name: "Salma",
       age: "24",
       education: "BAC+2",
       experience: 1,
@@ -51,8 +52,9 @@ export default function AllCourses() {
   }, [profs]);
 
   return (
-    <div>
+    <div >
       <Sidebar />
+     
       <div className={`${style.darkMode && "dark-mode"}`}>
         <div className={style.container}>
           <Header handleToggleDarkMode={setDarkMode} />
@@ -84,6 +86,8 @@ export default function AllCourses() {
           </Link>
         </div>
       </div>{" "}
+     
+     
     </div>
   );
 }

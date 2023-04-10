@@ -1,8 +1,12 @@
 import { MdDeleteForever } from "react-icons/md";
 import { Link } from "react-router-dom";
 import style from "./styles.module.css";
-const Course = ({ id, name, handleDeleteCourse }) => {
+
+
+const Course = ({ id, name,imageURL, handleDeleteCourse }) => {
+   
   return (
+
     <div className={style.course}>
       <table>
         <tr>
@@ -26,7 +30,7 @@ const Course = ({ id, name, handleDeleteCourse }) => {
       <div>
         <Link to={"CoursProfs"}>
           <center>
-            <img src="img2.webp" alt="image" className={style.coursImg}></img>
+            <img src={imageURL} alt="image" className={style.coursImg}></img>
           </center>
         </Link>
       </div>

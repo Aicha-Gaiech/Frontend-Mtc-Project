@@ -1,11 +1,12 @@
 .container {
-  margin-left: 10%;
+  
   max-width: 960px;
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
   min-height: 100vh;
 }
+
 
 .dark-mode {
   background-color: #131335;
@@ -20,10 +21,12 @@
 
 .cours {
   font-family: "Hanalei Fill", cursive;
-  color: #e9967a;
+  color:  	#FA8072;
+  margin-top: 20px;
+  
 }
 
 .see {
   font-family: "Goudy Old Style";
-  color: darkslateblue;
+  color: #8B0000;
 }

@@ -1,5 +1,8 @@
 .img1 {
-  clip-path: ellipse(33% 50%);
+  clip-path: ellipse(45% 50%);
+  height: 100px;
+  width: 100px;
+  
   
 }
 .body{
@@ -7,7 +10,7 @@
 }
 
 .container {
-  background-color: rgb(125, 177, 228);
+  background-color:  	#DCDCDC;
   border-radius: 10px ;
   padding: 1rem;
   min-height: 170px;
@@ -18,7 +21,7 @@
   margin-top: 15px;
 }
 .p b{
-  color: rgb(27, 106, 111);
+  color:  	#A52A2A;
   font-size: 17px;
 }
 .p {
