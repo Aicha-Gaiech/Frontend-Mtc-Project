@@ -4,6 +4,7 @@ import styles from "./styles.module.css";
 import Note from "./Note";
 import Sidebar from "../../Sidebar/SideBar";
 export default function Notes() {
+  const [deletenote,handleDeleteNote]=useState();
   const [notes, setNotes] = useState([]);
   const [title, setTitle] = useState("");
   const [note, setNote] = useState("");
@@ -35,6 +36,10 @@ export default function Notes() {
     getAllNotes();
   }, []);
 
+
+
+  
+
   return (
     <div>
       <Sidebar />
@@ -43,7 +48,7 @@ export default function Notes() {
 
         <div className={styles.notes_list}>
           {notes.map((u, key) => {
-            return <Note value={u} />;
+            return <Note value={u}  handleDeleteNote={handleDeleteNote}/>;
           })}
         </div>
         <h2 className={styles.title}>{title}</h2>

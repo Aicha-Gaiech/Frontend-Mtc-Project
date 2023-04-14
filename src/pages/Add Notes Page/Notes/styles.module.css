@@ -72,3 +72,15 @@
   font-weight: bold;
 
 }
+.note_delete {
+  float: right;
+  width: 30px;
+ 
+}
+.delete_icon {
+  cursor: pointer;
+  color: 	#dd6c1c;
+  font-size: large;
+  
+}
+
